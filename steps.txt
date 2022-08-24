@@ -1,0 +1,39 @@
+staking steps:
+1)create app
+  -creator address
+  -Reward Pool
+2)Update:
+  -Stake asset
+  -reward asset
+3)Optin
+     APP optin from sender
+4)AssetOptin
+     -arg-OPTIN-as string
+     -arg-asset ID-as Int
+	 -foreign asset-assetID
+5)Stake	 
+  -arg-STAKE-as string
+  -Transfer-sender to contract address
+  -atomic transfer
+  
+6)UNSTAKE
+  -arg-UNSTAKE-as string
+  -arg-amount to withdraw(with 6 decimal)-as Int
+  -arg-assetID-as Int
+  -foreign asset-assetID
+  
+7)RewardClaim
+     -arg-CLAIMREWARD-as string
+	 -arg-assetID-as Int
+     -foreign asset-assetID
+  
+App address: 7I7QRKRRZBXYYQSJS4G6ZKDJZ5AOMQWHIH4ZQQS6QYAQBYGJKC4TSTCXSA
+Stateful smart contract app created with app Id : 105741985
+  106120616-Asset
+ 
+	 
+	 
+  
+  
+  
+  
